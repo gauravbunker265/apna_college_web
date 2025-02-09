@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* .container{
+    background-color: gray;
+    padding: 90vh;
+} */
+main{
+    background-color: rgb(142, 136, 136);
+    border: 2px solid black;
+    border-radius: 5px;
+    background-size: cover;
+    height: 100vh;
+}
+.img{
+    height: 20px;
+    width: 30px;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+}
+main .img:hover{
+    height: 100px;
+    width: 100px;
+    transition-duration: 1s;
+    transition-timing-function: 1s;
+}
+.sidebar_menu .btn_two i{
+    color: gray;
+    font-size: 25px;
+    line-height: 60px;
+    position: absolute;
+    right: 10px;
+    cursor: progress;
+    /* opacity: 0; */
+}
